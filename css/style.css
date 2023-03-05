@@ -23,6 +23,10 @@ i {
   color: white;
 }
 
+.website {
+  padding: 10px;
+}
+
 .container {
   display: block;
   margin: 0 auto;
