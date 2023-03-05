@@ -11,11 +11,15 @@ h2 {
   color: white;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   display: block;
   margin: 0 auto;
 }
 
 .group-name {
-  justify-content: space-evenly;
+  display: grid;
 }
