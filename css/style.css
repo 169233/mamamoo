@@ -11,7 +11,11 @@ h2 {
   color: white;
 }
 
+.container {
+  display: block;
+  margin: 0 auto;
+}
 
-#navbar{
-    background: #2A2A2A;
+.group-name {
+  justify-content: space-evenly;
 }
