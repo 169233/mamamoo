@@ -1,3 +1,10 @@
+:root {
+  --solar-color: #EAA18F;
+  --moon-color: #c6252a;
+  --wheein-color: #195890;
+  --hwasa-color: #48AA71;
+}
+
 body {
   background: black;
 }
@@ -15,8 +22,20 @@ a {
   text-decoration: none;
 }
 
-a :hover {
-  color: red;
+#moon :hover {
+  color: var(--moon-color);
+}
+
+#solar :hover {
+  color: var(--solar-color);
+}
+
+#wheein :hover {
+  color: var(--wheein-color);
+}
+
+#hwasa :hover {
+  color: var(--hwasa-color);
 }
 
 i {
@@ -28,12 +47,30 @@ i {
   border-radius: 4px;
 }
 
-i:hover{
-color: black;
+i:hover {
+  color: black;
+  transform: scale(1.5);
+  transition: all 200ms ease-in-out;
 }
 
 .website {
   padding: 10px;
+}
+
+.solar-pink {
+  background: var(--solar-color);
+}
+
+.moon-red {
+  background: var(--moon-color);
+}
+
+.wheein-blue {
+  background: var(--wheein-color);
+}
+
+.hwasa-green {
+  background: var(--hwasa-color);
 }
 
 .container {
