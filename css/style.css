@@ -16,12 +16,20 @@ a {
 }
 
 a :hover {
-  color: blueviolet;
+  color: red;
 }
 
 i {
   color: white;
   font-size: large;
+  border: 2px ridge #343434;
+  padding: 5px;
+  background: #343434;
+  border-radius: 4px;
+}
+
+i:hover{
+color: black;
 }
 
 .website {
