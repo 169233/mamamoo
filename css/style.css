@@ -1,5 +1,5 @@
 :root {
-  --solar-color: #FF3C8B;
+  --solar-color: #ff3c8b;
   --moon-color: #c6252a;
   --wheein-color: #195890;
   --hwasa-color: #058555;
@@ -23,10 +23,10 @@ a {
   text-decoration: none;
 }
 
-p{
+p {
   color: white;
   font-size: 20px;
-  line-height: 3;
+  line-height: 1.5;
 }
 
 #moon :hover {
@@ -94,4 +94,12 @@ i:hover {
   text-align: center;
   background: black;
   line-height: 3;
+}
+
+.about-headline {
+  margin-bottom: 0;
+  position: relative;
+  bottom: -20px;
+  font-size: 60px;
+  text-transform: uppercase;
 }
