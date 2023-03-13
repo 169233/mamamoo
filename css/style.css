@@ -1,8 +1,8 @@
 :root {
-  --solar-color: #eaa18f;
+  --solar-color: #FF3C8B;
   --moon-color: #c6252a;
   --wheein-color: #195890;
-  --hwasa-color: #48aa71;
+  --hwasa-color: #058555;
 }
 
 body {
@@ -21,6 +21,12 @@ h2 {
 
 a {
   text-decoration: none;
+}
+
+p{
+  color: white;
+  font-size: 20px;
+  line-height: 3;
 }
 
 #moon :hover {
