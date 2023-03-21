@@ -12,11 +12,16 @@ body {
 h1 {
   text-align: center;
   color: white;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
 }
 
 h2 {
   text-align: center;
   color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
 }
 
 a {
@@ -29,20 +34,24 @@ p {
   line-height: 1.5;
 }
 
-#moon :hover {
-  color: var(--moon-color);
-}
-
-#solar :hover {
+.navbar-brand {
   color: var(--solar-color);
 }
 
-#wheein :hover {
-  color: var(--wheein-color);
+.nav-link {
+  color: var(--solar-color);
 }
 
-#hwasa :hover {
-  color: var(--hwasa-color);
+.main-picture {
+  max-width: 100%;
+}
+
+.main-hero {
+  color: var(--solar-color);
+  position: relative;
+  bottom: -50px;
+  font-size: 100px;
+  text-transform: uppercase;
 }
 
 i {
@@ -55,13 +64,17 @@ i {
 }
 
 i:hover {
-  color: black;
+  color: rgb(0, 0, 0);
   transform: scale(1.5);
   transition: all 200ms ease-in-out;
 }
 
 .website {
   padding: 10px;
+}
+
+.fa-brands {
+  color: var(--solar-color);
 }
 
 .solar-pink {
@@ -85,21 +98,8 @@ i:hover {
   margin: 0 auto;
 }
 
-.group-name {
-  display: grid;
-  justify-content: space-evenly;
-}
-
 .footer {
   text-align: center;
   background: black;
   line-height: 3;
-}
-
-.about-headline {
-  margin-bottom: 0;
-  position: relative;
-  bottom: -20px;
-  font-size: 60px;
-  text-transform: uppercase;
 }
