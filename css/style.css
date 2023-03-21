@@ -77,6 +77,11 @@ i:hover {
   color: var(--solar-color);
 }
 
+.second-hero {
+  display: block;
+  width: 100%;
+}
+
 .solar-pink {
   background: var(--solar-color);
 }
