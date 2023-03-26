@@ -88,8 +88,6 @@ i:hover {
 }
 
 .personal-website {
-  position: relative;
-  bottom: -50px;
   font-size: 100px;
   text-transform: uppercase;
 }
@@ -125,4 +123,23 @@ i:hover {
   text-align: center;
   background: black;
   line-height: 3;
+}
+
+@media (max-width: 575px) {
+  .main-hero {
+    font-size: 50px;
+    margin-bottom: 60px;
+  }
+
+  .personal-website {
+    font-size: 50px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .img-change:hover {
+    transform: scale(1);
+  }
 }
