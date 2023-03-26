@@ -108,6 +108,13 @@ i:hover {
   margin: 0 auto;
 }
 
+.contact{
+  margin-top: 50px;
+  text-align: center;
+  padding: 40px;
+  
+}
+
 .footer {
   text-align: center;
   background: black;
