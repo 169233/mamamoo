@@ -39,6 +39,25 @@ p {
   margin-bottom: 0;
 }
 
+i {
+  color: white;
+  font-size: large;
+  border: 2px ridge #343434;
+  padding: 5px;
+  background: #343434;
+  border-radius: 4px;
+}
+
+i:hover {
+  color: rgb(0, 0, 0);
+  transform: scale(1.5);
+  transition: all 200ms ease-in-out;
+}
+
+hr {
+  color: var(--solar-color);
+}
+
 .navbar-brand {
   color: var(--solar-color);
 }
@@ -57,21 +76,6 @@ p {
   bottom: -50px;
   font-size: 100px;
   text-transform: uppercase;
-}
-
-i {
-  color: white;
-  font-size: large;
-  border: 2px ridge #343434;
-  padding: 5px;
-  background: #343434;
-  border-radius: 4px;
-}
-
-i:hover {
-  color: rgb(0, 0, 0);
-  transform: scale(1.5);
-  transition: all 200ms ease-in-out;
 }
 
 .website {
@@ -147,6 +151,10 @@ i:hover {
 }
 
 @media (max-width: 575px) {
+  p {
+    text-align: center;
+  }
+
   .main-hero {
     font-size: 50px;
     margin-bottom: 60px;
@@ -158,10 +166,6 @@ i:hover {
 
   .personal-website {
     font-size: 50px;
-  }
-
-  p {
-    text-align: center;
   }
 
   .img-change:hover {
