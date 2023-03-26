@@ -82,6 +82,11 @@ i:hover {
   width: 100%;
 }
 
+.img-change:hover {
+  transform: scale(1.2);
+  transition: all 200ms ease-in-out;
+}
+
 .solar-pink {
   background: var(--solar-color);
 }
