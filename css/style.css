@@ -100,12 +100,24 @@ i:hover {
   background: var(--moon-color);
 }
 
+.moon {
+  color: var(--moon-color);
+}
+
 .wheein-blue {
   background: var(--wheein-color);
 }
 
+.wheein {
+  color: var(--wheein-color);
+}
+
 .hwasa-green {
   background: var(--hwasa-color);
+}
+
+.hwasa {
+  color: var(--hwasa-color);
 }
 
 .container {
