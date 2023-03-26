@@ -91,6 +91,11 @@ i:hover {
   background: var(--solar-color);
 }
 
+.solar-page {
+  color: white;
+  background: var(--moon-color);
+}
+
 .moon-red {
   background: var(--moon-color);
 }
@@ -108,11 +113,10 @@ i:hover {
   margin: 0 auto;
 }
 
-.contact{
+.contact {
   margin-top: 50px;
   text-align: center;
   padding: 40px;
-  
 }
 
 .footer {
