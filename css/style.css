@@ -26,12 +26,17 @@ h2 {
 
 a {
   text-decoration: none;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
 }
 
 p {
   color: white;
   font-size: 20px;
   line-height: 1.5;
+  margin-bottom: 0;
 }
 
 .navbar-brand {
@@ -96,6 +101,10 @@ i:hover {
   background: var(--solar-color);
 }
 
+.solar {
+  color: var(--solar-color);
+}
+
 .moon-red {
   background: var(--moon-color);
 }
@@ -141,6 +150,10 @@ i:hover {
   .main-hero {
     font-size: 50px;
     margin-bottom: 60px;
+  }
+
+  .main-picture {
+    margin-bottom: 0;
   }
 
   .personal-website {
