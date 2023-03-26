@@ -87,6 +87,13 @@ i:hover {
   transition: all 200ms ease-in-out;
 }
 
+.personal-website {
+  position: relative;
+  bottom: -50px;
+  font-size: 100px;
+  text-transform: uppercase;
+}
+
 .solar-pink {
   background: var(--solar-color);
 }
@@ -108,11 +115,10 @@ i:hover {
   margin: 0 auto;
 }
 
-.contact{
+.contact {
   margin: 50px;
   text-align: center;
   padding: 40px;
-  
 }
 
 .footer {
