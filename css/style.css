@@ -151,7 +151,7 @@ hr {
 
 @media (max-width: 575px) {
   p {
-    text-align: left;
+    text-align: center;
   }
 
   .main-hero {
