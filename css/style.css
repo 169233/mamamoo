@@ -133,11 +133,6 @@ hr {
   color: var(--hwasa-color);
 }
 
-.container {
-  display: block;
-  margin: 0 auto;
-}
-
 .contact {
   text-align: center;
   padding: 40px;
@@ -154,8 +149,12 @@ hr {
     text-align: center;
   }
 
+  h2{
+    text-align: left;
+  }
+
   .main-hero {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 60px;
   }
 
@@ -171,7 +170,7 @@ hr {
     transform: scale(1);
   }
 
-  .contact{
+  .contact {
     text-align: left;
   }
 }
