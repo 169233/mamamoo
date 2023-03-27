@@ -60,10 +60,14 @@ hr {
 
 .navbar-brand {
   color: var(--solar-color);
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .nav-link {
   color: var(--solar-color);
+  text-transform: uppercase;
+  font-weight: bolder;
 }
 
 .main-picture {
